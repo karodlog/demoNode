@@ -1,0 +1,20 @@
+{
+  "name": "demomode",
+  "version": "1.0.0",
+  "description": "projet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karodlog/demoNode.git"
+  },
+  "author": "jluc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karodlog/demoNode/issues"
+  },
+  "homepage": "https://github.com/karodlog/demoNode#readme"
+}
