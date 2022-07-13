@@ -4,6 +4,7 @@ let compteur = {
         const dateNoel = new Date(`Dec 25, ${choixAnnee}, 00:00:00`).getTime();
 
         const intervalle = dateNoel - dateDay;
+
         const days = Math.floor(intervalle / (1000 * 60 * 60 * 24));
         const hours = Math.floor((intervalle % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((intervalle % (1000 * 60 * 60)) / (1000 * 60));
