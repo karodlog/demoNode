@@ -11,7 +11,7 @@ let compteur = {
         const secondes = Math.round((intervalle % (1000 * 60)) / 1000)
 
         const noel = (`${days} jours ${hours} heures ${minutes} minutes ${secondes} secondes`)
-        console.log(`Ils vous restent ${noel} pour fêter Noël avec vos proches.`);
+        console.log(`Il vous reste ${noel} pour fêter Noël avec vos proches.`);
     },
     anniversaire: function (choixAnnee = 2022) {
         const dateDay = new Date().getTime();
@@ -24,7 +24,7 @@ let compteur = {
         const secondes = Math.round((intervalle % (1000 * 60)) / 1000)
 
         const myBirthday = (`${days} jours ${hours} heures ${minutes} minutes ${secondes} secondes`)
-        console.log(`Ils vous restent ${myBirthday} pour réfléchir aux nombreux cadeaux que vous aller m'offrir à l'occasion de mon anniversaire (le 9 novembre).`)
+        console.log(`Il vous reste ${myBirthday} pour réfléchir aux nombreux cadeaux que vous aller m'offrir à l'occasion de mon anniversaire (le 9 novembre).`)
     },
     longWeekEnd: function () {
         const dateDay = new Date().getTime();
